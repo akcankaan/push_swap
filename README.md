@@ -2,16 +2,17 @@
 Push_swap projesi, verilen integer dizisini iki stack kullanarak en kısa sürede sıralayan bir C programı yazmayı hedefleyen bir algoritma projesidir. Bu proje, sıralama algoritmalarını öğrenmek ve bu algoritmaların karmaşıklıklarını anlamak için harika bir fırsattır.
 
 ## İçindekiler
-Kurulum
-Kullanım
-Aksiyonlar
-Hedefler
-Genel Talimatlar
-Zorunlu Bölüm
-Sıralama Algoritmaları
-Proje Dosyaları
-Hata Yönetimi
-Kurulum
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Aksiyonlar](#aksiyonlar)
+- [Hedefler](#hedefler)
+- [Genel Talimatlar](#genel-talimatlar)
+- [Zorunlu Bölüm](#zorunlu-bölüm)
+- [Sıralama Algoritmaları](#sıralama-algoritmaları)
+- [Radix Sort](#radix-sort)
+- [Selection Sort](#selection-sort)
+- [Proje Dosyaları](#proje-dosyaları)
+- [Hata Yönetimi](#hata-yonetimi)
 Projeyi klonlayarak başlayın:
 
 ## Kurulum
