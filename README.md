@@ -26,13 +26,13 @@ Makefile kullanarak projeyi derleyin:
 make
 ```
 
-#Kullanım
+# Kullanım
 Programı çalıştırmak için push_swap ve sıralamak istediğiniz integer dizisini argüman olarak verin:
 ```bash
 ./push_swap 3 2 5 1 4
 ```
 
-#Aksiyonlar
+# Aksiyonlar
 Program aşağıdaki aksiyonları kullanarak iki stack üzerinde çalışır:
 
 sa (swap a): a stackinin en üstteki iki elemanını yer değiştirir.
@@ -47,7 +47,7 @@ rra (reverse rotate a): a stackinin tüm elemanlarını bir aşağı kaydırır.
 rrb (reverse rotate b): b stackinin tüm elemanlarını bir aşağı kaydırır.
 rrr: rra ve rrb aksiyonlarını aynı anda gerçekleştirir.
 
-#Hedefler
+# Hedefler
 Verilen integer dizisini iki stack kullanarak en kısa sürede sıralamak.
 Sıralama algoritmalarının karmaşıklığını anlamak ve optimize etmek.
 C programlama dilinde etkili ve verimli kod yazmak.
@@ -73,10 +73,10 @@ push_swap.h: Fonksiyon prototiplerini ve veri yapısı tanımlarını içerir.
 Sıralama Algoritmaları
 Bu projede, verilen integer dizisini sıralamak için Radix Sort ve Selection Sort algoritmalarını kullandık.
 
-#Radix Sort
+# Radix Sort
 Radix Sort, integer dizisini sıralamak için kullanılan verimli bir algoritmadır. Bu algoritma, özellikle büyük veri setlerinde hızlı ve etkili sonuçlar verir. Radix Sort algoritması, sayıları basamaklarına göre sıralayarak çalışır ve her basamak için bir geçiş yapar. Bu algoritma, stabil ve lineer zaman karmaşıklığına sahiptir.
 
-#Selection Sort
+# Selection Sort
 Selection Sort, verilen bir diziyi sıralamak için kullanılan basit bir sıralama algoritmasıdır. Bu algoritma, sıralanmamış kısmın en küçük elemanını seçer ve sıralanmış kısmın sonuna ekler. Selection Sort, anlaşılması kolay bir algoritma olmasına rağmen, büyük veri setlerinde diğer sıralama algoritmalarına göre daha yavaş olabilir. Zaman karmaşıklığı O(n^2) olup, küçük veri setleri için uygun bir seçenektir.
 
 #Hata Yönetimi
