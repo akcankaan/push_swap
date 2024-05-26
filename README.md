@@ -18,7 +18,7 @@ Projeyi klonlayarak başlayın:
 Projeyi klonlayarak başlayın:
 
  ```bash
-git clone https://github.com/akcankaan/push_swap
+git clone git@github.com:akcankaan/push_swap.git
 cd push_swap
 ```
 Makefile kullanarak projeyi derleyin:
