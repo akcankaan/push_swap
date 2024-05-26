@@ -13,7 +13,6 @@ Push_swap projesi, verilen integer dizisini iki stack kullanarak en kısa süred
 - [Selection Sort](#selection-sort)
 - [Proje Dosyaları](#proje-dosyaları)
 - [Hata Yönetimi](#hata-yonetimi)
-Projeyi klonlayarak başlayın:
 
 ## Kurulum
 Projeyi klonlayarak başlayın:
