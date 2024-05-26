@@ -20,8 +20,8 @@ Projeyi klonlayarak başlayın:
  ```bash
 git clone https://github.com/akcankaan/push_swap
 cd push_swap
-Makefile kullanarak projeyi derleyin:
 ```
+Makefile kullanarak projeyi derleyin:
  ```bash
 make
 ```
