@@ -48,35 +48,38 @@ Program aşağıdaki aksiyonları kullanarak iki stack üzerinde çalışır:
 - rrr: rra ve rrb aksiyonlarını aynı anda gerçekleştirir.
 
 ## Hedefler
-Verilen integer dizisini iki stack kullanarak en kısa sürede sıralamak.
-Sıralama algoritmalarının karmaşıklığını anlamak ve optimize etmek.
-C programlama dilinde etkili ve verimli kod yazmak.
-Genel Talimatlar
-Proje C dilinde yazılmalıdır.
-Kodunuz norm kurallarına uygun olmalıdır.
-Global değişkenler kullanmak yasaktır.
-Heap üzerinde ayrılmış hafıza gerektiğinde serbest bırakılmalıdır.
-Makefile, proje kaynak dosyalarını -Wall -Wextra -Werror bayrakları ile derlemelidir.
-Makefile en azından $(NAME), all, clean, fclean, re kurallarını içermelidir.
-Projeye bonus özellikleri dahil etmek için Makefile dosyasına bonus kuralını eklemelisiniz.
-Zorunlu Bölüm
-Kurallar
-İki stack kullanılır: a ve b.
-Başlangıçta a stacki rastgele sayıda, birbirinin aynısı olmayan negatif ve/veya pozitif sayıdan oluşur, b stacki boştur.
-Amaç, a stackindeki sayıları artan şekilde sıralamaktır.
-Proje Dosyaları
-Makefile: Projenizi derler.
-push_swap.c: Ana program dosyası.
-stack_operations.c: Stack işlemlerini tanımlar.
-utils.c: Yardımcı fonksiyonları içerir.
-push_swap.h: Fonksiyon prototiplerini ve veri yapısı tanımlarını içerir.
-Sıralama Algoritmaları
+- Verilen integer dizisini iki stack kullanarak en kısa sürede sıralamak.
+- Sıralama algoritmalarının karmaşıklığını anlamak ve optimize etmek.
+- C programlama dilinde etkili ve verimli kod yazmak.
+
+## Genel Talimatlar
+- Proje C dilinde yazılmalıdır.
+- Kodunuz norm kurallarına uygun olmalıdır.
+- Global değişkenler kullanmak yasaktır.
+- Heap üzerinde ayrılmış hafıza gerektiğinde serbest bırakılmalıdır.
+- Makefile, proje kaynak dosyalarını -Wall -Wextra -Werror bayrakları ile derlemelidir.
+- Makefile en azından $(NAME), all, clean, fclean, re kurallarını içermelidir.
+- Projeye bonus özellikleri dahil etmek için Makefile dosyasına bonus kuralını eklemelisiniz.
+  
+## Zorunlu Bölüm
+### Kurallar
+- İki stack kullanılır: a ve b.
+- Başlangıçta a stacki rastgele sayıda, birbirinin aynısı olmayan negatif ve/veya pozitif sayıdan oluşur, b stacki boştur.
+- Amaç, a stackindeki sayıları artan şekilde sıralamaktır.
+### Proje Dosyaları
+- Makefile: Projenizi derler.
+- push_swap.c: Ana program dosyası.
+- stack_operations.c: Stack işlemlerini tanımlar.
+- utils.c: Yardımcı fonksiyonları içerir.
+- push_swap.h: Fonksiyon prototiplerini ve veri yapısı tanımlarını içerir.
+- 
+## Sıralama Algoritmaları
 Bu projede, verilen integer dizisini sıralamak için Radix Sort ve Selection Sort algoritmalarını kullandık.
 
-## Radix Sort
+### Radix Sort
 Radix Sort, integer dizisini sıralamak için kullanılan verimli bir algoritmadır. Bu algoritma, özellikle büyük veri setlerinde hızlı ve etkili sonuçlar verir. Radix Sort algoritması, sayıları basamaklarına göre sıralayarak çalışır ve her basamak için bir geçiş yapar. Bu algoritma, stabil ve lineer zaman karmaşıklığına sahiptir.
 
-## Selection Sort
+### Selection Sort
 Selection Sort, verilen bir diziyi sıralamak için kullanılan basit bir sıralama algoritmasıdır. Bu algoritma, sıralanmamış kısmın en küçük elemanını seçer ve sıralanmış kısmın sonuna ekler. Selection Sort, anlaşılması kolay bir algoritma olmasına rağmen, büyük veri setlerinde diğer sıralama algoritmalarına göre daha yavaş olabilir. Zaman karmaşıklığı O(n^2) olup, küçük veri setleri için uygun bir seçenektir.
 
 ## Hata Yönetimi
